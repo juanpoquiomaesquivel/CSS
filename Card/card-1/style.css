@@ -1,0 +1,67 @@
+.card.borderless {
+    box-shadow: 0 1px 3px #0000001f, 0 1px 2px #0000003d !important;
+    transition: 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+
+    /* simple */
+    position: relative;
+    margin: 12px !important;
+    border: 3px solid #eee !important;
+    background: hsl(220deg 14% 97%) !important;
+    background-color: #fff !important;
+    color: #000 !important;
+    text-align: left;
+}
+
+.card-img-overlay.--card-img-overlay-purple {
+    /* simple */
+    position: relative;
+    padding: 1.88rem 2rem !important;
+    width: 100%;
+    height: 135px;
+    border-radius: 5px !important;
+    background-color: rgba(45, 26, 80, 0.7);
+    background-image: url(assets/background.jpg);
+    background-size: cover;
+    background-position: 0 0;
+}
+
+.title {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-weight: bold;
+    font-size: 2em;
+    letter-spacing: 0.1056em !important;
+    white-space: nowrap;
+    text-overflow: ellipsis !important;
+    overflow: hidden;
+    max-width: 100%;
+    color: white !important;
+}
+
+.badge-look {
+    background: linear-gradient(
+        135deg,
+        transparent 0,
+        transparent 8%,
+        rgba(255, 255, 255, 0.03) 30%,
+        rgba(255, 255, 255, 0.03) 60%,
+        rgba(255, 255, 255, 0) 68%
+    ) !important;
+    background-color: rgba(180, 80, 80, 0.45) !important;
+    border-radius: 16px;
+    border-color: #ffffff #ff454560 rgba(158, 65, 65, 0.067) #f50a0a50 !important;
+    backdrop-filter: blur(6px) saturate(110%) !important;
+    box-shadow: 0 1px 5px 1px rgb(41 41 41 / 45%),
+        0 0.33em 0.725em -0.455em rgb(0 0 0 / 40%),
+        inset 0 0.0625em 0 rgb(255 255 255 / 50%),
+        inset 0 -0.125em 0.0625em rgb(0 0 0 / 28%) !important;
+    border: 2px outset rgba(255, 255, 255, 0.3) !important;
+    line-height: 12px;
+    color: #ffffff !important;
+    font-size: 0.65em;
+    font-weight: bolder;
+    font-family: Roboto, sans-serif !important;
+    letter-spacing: 0.1666666667em !important;
+    text-transform: uppercase;
+    text-shadow: 0.25px 0.25px 0.15px #00000065,
+        0.125px 0.125px 1px rgba(0, 0, 0, 0.83);
+}
